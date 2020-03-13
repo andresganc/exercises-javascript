@@ -10,16 +10,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <ul>
-        <li> <a href="index.html">Inicio</a></li>
-        <li> <a href="1-Basicos/basicos.html">Basicos</a></li>
-        <li> <a href="2-Intermedio/intermedio.html">Medios</a></li>
-        <li> <a href="3-Avanzado/avanzados.html">Avanzados</a></li>
-    </ul>
 
-    <h3>CURSO JAVASCRIPT</h3>
-    <h4>ES6</h4>  
-    <h4>Documentacion</h4>
+    <div>
+        <ul>
+            <li> <a href="index.html">Inicio</a></li>
+            <li> <a href="1-Basicos/basicos.html">Basicos</a></li>
+            <li> <a href="2-Intermedio/intermedio.html">Medios</a></li>
+            <li> <a href="3-Avanzado/avanzados.html">Avanzados</a></li>
+        </ul>
+    </div>
+        
+    <div>
+        <h3>CURSO JAVASCRIPT</h3>
+        <h4>NIVEL INTERMEDIO</h4>  
+        <h4>Documentacion</h4>
+        <h5>operaciones</h5>
+        <h6>Sumas</h6>
+
+        <label>Numero 1:</label>
+        <input id="numero1" type="text">
+        <br>
+
+        <label>Numero 2:</label>
+        <input id="numero2" type="text">
+        <br>
+
+        <label>Igual: </label>
+        <input id="suma" type="text">
+
+        <br>
+
+        <button onclick="Sumar()">Sumar</button>
+        
+
+        <script>
+
+            function Sumar() {
+                var n1 = document.getElementById('numero1').value;
+                var n2 = document.getElementById('numero2').value;
+
+                var suma = parseInt(n1) + parseInt(n2);
+                alert("La suma es: "+suma)
+            }
+            
+        </script>
+        
+
+
+    </div>
+
+    
     
 
     <!-- Operadores Aritmeticos-->
