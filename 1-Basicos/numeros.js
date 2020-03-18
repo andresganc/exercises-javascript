@@ -1,13 +1,15 @@
-/* Numbers */
-// Los números son valores que se pueden usar en operaciones matemáticas. 
-// No necesita ninguna sintaxis especial para los números, 
-// simplemente escríbalos directamente en JavaScript.
+/* Numeros enteros
+ Los números son valores que se pueden usar en operaciones matemáticas. 
+ No necesita ninguna sintaxis especial para los números, 
+ simplemente escríbalos directamente en JavaScript.
+*/
 
 console.log (12345);
 
-/* Decimales y fracciones */
-// JavaScript no distingue entre números enteros y decimales, 
-// por lo que puede usarlos juntos sin tener que convertirlos de uno a otro.
+/* Decimales y fracciones 
+JavaScript no distingue entre números enteros y decimales, 
+por lo que puede usarlos juntos sin tener que convertirlos de uno a otro.
+*/
 
 console.log (10 + 3.14159);
 //OUTPUT: 13.14159
