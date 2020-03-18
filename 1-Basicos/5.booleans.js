@@ -5,8 +5,10 @@
 // generalmente es una buena opción para un booleano. 
 // Es útil almacenar booleanos en variables para realizar un seguimiento de sus valores y cambiarlos con el tiempo.
 
-var kitchenLights = false;
-kitchenLights = true;
-console.log (kitchenLights);
+var estado = false;
+
+estado = true;
+
+console.log (estado);
 
 // OUTPUT: true

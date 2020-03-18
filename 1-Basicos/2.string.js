@@ -5,7 +5,7 @@
 /* Comillas Simples y Dobles */
 // String con comillas simples y comillas dobles
 console.log('This is a string. 👏');
-console.log("This is the 2nd string. 💁");
+console.log('"This is the 2nd string. 💁"');
 
 
 /* Entre comillas */

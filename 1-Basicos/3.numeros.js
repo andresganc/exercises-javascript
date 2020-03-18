@@ -11,7 +11,7 @@ JavaScript no distingue entre números enteros y decimales,
 por lo que puede usarlos juntos sin tener que convertirlos de uno a otro.
 */
 
-console.log (10 + 3.14159);
+console.log (10 + 3.1);
 //OUTPUT: 13.14159
 
 
