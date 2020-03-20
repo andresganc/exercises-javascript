@@ -3,7 +3,7 @@
 
 var numero1 = 5;
 
-var ProductoNC = ["Camara fija interna", "camara fija externa", "DVR - XVR", "Video Balum"]
+var ProductoNC = ["Camara fija interna", "camara fija externa", "DVR - XVR", "Video Balum"];
 
 var actors = ["Felicia", "Nathan", "Neil"];
 

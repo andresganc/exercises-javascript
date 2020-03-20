@@ -13,6 +13,7 @@ console.log(numero1 + numero2);
 
 
 
+
 // Ejercicio 1
 // Pedir 3 numeros a un usuario, sumarlos y mostrar el resultado 
 

@@ -21,4 +21,10 @@
 // Funciona igual si se pone si no se pone
 
 
+// 5. Palabras reservadas
+// El lenguaje JavaScript asi como todos los lenguajes de programacion tienen palabras reservadas
+// Estas no se pueden usar como no nombres de variables o para nuestro uso.
+// Ejemplo de palabras reservadas: var, const, array, String.
+
+
 

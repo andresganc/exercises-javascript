@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de suma</title>
+</head>
+<body>
+    <header>
+        <h2>Programa: Suma</h2>
+        <p>El programa debe de pedir 3 numeros uno por uno al usuario</p>
+        <p>Sumarlos y mostrarle un mensaje con los numeros que ingreso y el resultado de la suma.</p>
+    </header>
+
+    <script>
+        var numero1 = window.prompt("Inserte el primer numero: ");
+        var numero2 = window.prompt("Inserte el segundo numero: ");
+        var numero3 = window.prompt("Inserte el tercer numero: ");
+
+        var resultado = (parseInt(numero1) + parseInt(numero2) + parseInt(numero3)); 
+
+        //window.alert("Estos son los numeros que ingreso", numero1, numero2, numero3, "El resultado es: ", resultado);
+
+        console.log("Estos son los numeros que ingreso", numero1, numero2, numero3, "El resultado es: ", resultado);
+
+    </script>
+</body>
+</html>
