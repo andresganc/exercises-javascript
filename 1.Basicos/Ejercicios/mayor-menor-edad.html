@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Resta</title>
+</head>
+<body>
+    <header>
+        <h2>Programa: Mayor o Menor edad</h2>
+        <p>1. El programa debe de pedir el nombre, El apellido y la edad al usuario</p>
+        <p>2. Evaluar si es menor o mayor de edad.</p>
+        <p>3. Mostrar un mensaje que le diga su nombre, apellido, edad. Y le indique si es mayor o menor de edad.</p>
+    </header>
+
+    <script>
+        // 1. Paso
+        window.alert("Programa: Mayor o menor de edad - El programa pide nombre, apellido y edad del usuario")
+        var nombre = window.prompt("Ingrese el nombre : ");
+        var apellido = window.prompt("Ingrese el apellido : ");
+        var edad = window.prompt("Ingrese la edad : ");
+
+
+        // 2 y 3. Paso
+        if (edad > 18){
+            window.alert("Su nombre es: " + nombre + " Su apellido es: " + apellido + " Su edad es: " + edad + " años y " + "usted es mayor de edad");
+        }else {
+            window.alert("Su nombre es: " + nombre + " Su apellido es: " + apellido + " Su edad es: " + edad + " años y " + "usted es menor de edad" );
+        }
+
+
+    </script>
+</body>
+</html>
