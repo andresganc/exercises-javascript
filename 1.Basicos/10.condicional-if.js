@@ -1,7 +1,7 @@
-// OPERADORES LOGICOS
+// OPERADORES LOGICOS O CONDICIONALES
 
 // IF (SI)
-// if es un condicional en el que puede evaluar valores o datos segun la condicion.
+// if es un condicional en el que puede evaluar la condicion de una variable.
 // Puede ir acompañado de else y else if.
 
 // OPERADORES
@@ -11,6 +11,33 @@
 // Operador && (Y)
 // Operador || (O)
 // Operador ! (Negacion)
+
+
+// SINTAXIS
+/*
+
+Ej1:
+if condicion{
+    haga esto
+}
+
+Ej2:
+if condicion{
+    haga esto
+}else{
+    haga esto
+}
+
+Ej3:
+if condicion{
+    haga esto
+}else if {
+    haga esto
+}else{
+    haga esto
+}
+
+*/
 
 var nombre1 = "Andres";
 var numero1 = 2000;
