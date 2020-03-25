@@ -31,7 +31,7 @@ if condicion{
 Ej3:
 if condicion{
     haga esto
-}else if {
+}else if condicion {
     haga esto
 }else{
     haga esto

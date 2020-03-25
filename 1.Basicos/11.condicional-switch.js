@@ -25,13 +25,15 @@ switch (variable) {
 }
 
 */
-
+isNaN
 
 var userStatus = false;
 var genero;
+var edad;
 
 userStatus = true;
-genero = "Masculino";
+genero = "Femenino";
+edad = 25;
 
 // Ejemplo 1
 switch (userStatus){
@@ -58,3 +60,5 @@ switch (genero){
         console.log("Categoria Masculina");    
         break;
 }
+
+
