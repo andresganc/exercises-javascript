@@ -13,15 +13,21 @@
     </header>
 
     <script>
-        window.alert("Programa: Multiplicacion - El programa pide 2 numeros y los multiplica")
+
+        // Mensaje informativo que explica al usuario que se va a hacer
+        window.alert("Programa: Multiplicacion - El programa pide 2 numeros y los multiplica");
+
+        // Se piden los numeros a multiplicar y se almacenan en variables
         var numero1 = window.prompt("Inserte el primer numero: ");
         var numero2 = window.prompt("Inserte el segundo numero: ");
-        //var numero3 = window.prompt("Inserte el tercer numero: ");
 
+        // Calculo de la multiplicacion
         var resultado = (parseInt(numero1) * parseInt(numero2)); 
 
+        // Mensaje donde se muestra los numeros que se ingresaron y el resultado de la multiplicacion
         window.alert("Estos son los numeros que ingreso: " + numero1 + " x " + numero2 + " " + "El resultado de la multiplicacion es: " + resultado);
 
+        // El mismo mensaje de arriba pero por consola
         console.log("Estos son los numeros que ingreso", numero1, numero2, "El resultado de la multiplicacion es: ", resultado);
 
     </script>

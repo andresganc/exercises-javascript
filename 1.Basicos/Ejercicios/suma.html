@@ -13,15 +13,21 @@
     </header>
 
     <script>
+        // Mensaje para explicar el programa
         window.alert("Programa: Suma - El programa pide 3 numeros y los suma");
+
+        // Pedir los numeros y Almacenarlos en una variable
         var numero1 = window.prompt("Inserte el primer numero: ");
         var numero2 = window.prompt("Inserte el segundo numero: ");
         var numero3 = window.prompt("Inserte el tercer numero: ");
 
+        // Calculo de la suma 
         var resultado = (parseInt(numero1) + parseInt(numero2) + parseInt(numero3)); 
 
+        // Mensaje con los datos que el usuario ingreso y el resultado
         window.alert("Estos son los numeros que ingreso: " + numero1 + " + " + numero2 + " + " + numero3 + " " + "El resultado de la suma es: " + resultado);
 
+        // Mismo mensaje de arriba pero por consola
         console.log("Estos son los numeros que ingreso", numero1, numero2, numero3, "El resultado de la suma es: ", resultado);
 
     </script>

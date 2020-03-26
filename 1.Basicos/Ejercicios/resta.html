@@ -13,15 +13,22 @@
     </header>
 
     <script>
-        window.alert("Programa: Resta - El programa pide 3 numeros y los resta")
+
+        // Mensaje informativo que explica al usuario que se va a hacer
+        window.alert("Programa: Resta - El programa pide 3 numeros y los resta");
+
+        // Se piden los numeros a restar y se almacenan en variables
         var numero1 = window.prompt("Inserte el primer numero: ");
         var numero2 = window.prompt("Inserte el segundo numero: ");
         var numero3 = window.prompt("Inserte el tercer numero: ");
 
+        // Calculo de la resta
         var resultado = (parseInt(numero1) - parseInt(numero2) - parseInt(numero3)); 
 
+        // Mensaje donde se muestra los numeros que se ingresaron y el resultado de la resta
         window.alert("Estos son los numeros que ingreso: " + numero1 + " - " +  numero2 + " - " + numero3 + " - " + "El resultado de la resta es: " + resultado);
 
+        // El mismo mensaje de arriba pero por consola
         console.log("Estos son los numeros que ingreso", numero1, numero2, numero3, "El resultado de la resta es: ", resultado);
 
     </script>

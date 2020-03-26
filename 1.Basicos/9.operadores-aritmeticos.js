@@ -42,6 +42,9 @@ console.log (1 + 100 * 5);
 // Agregar el operador de agrupación al ejemplo anterior hace que 1 + 100 se evalúe primero.
 
 console.log ((1 + 100 + (5 + 5)) * 5);
+((1 + 100 + (10))* 5
+((111) * 5)
+
 // OUTPUT: 505
 
 // Aplicando varias operaciones
