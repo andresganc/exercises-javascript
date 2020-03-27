@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa: Cierre de caja</title>
+</head>
+<body>
+    <h2>Programa : Cierre de caja</h2>
+    <p>1. El usuario va ingresar 3 ventas: Venta 1, Venta 2 y Venta 3</p>
+    <p>2. Se va a ingresar 2 gastos: Gasto 1, Gasto 2</p>
+    <p>3. Las 3 ventas y los 2 gastos se van a almacenar en variables</p>
+    <p>4. hacer el calculo (Ventas calcular y almacenar en una variable y gastos calcular y almacenar en otra variable)</p>
+    <p>5. Hacer el calculo de el resultado (Ingresos totales - Gastos totales)</p>
+    <p>6. Mostrar un mensaje con el total de ventas, El total de gastos y cuanto fur el cierre de caja</p>
+
+
+    <script>
+
+        // Paso 1, 2 & 3
+        var venta1 = window.prompt("Venta 1 : " );
+        while (isNaN(venta1)) {
+            var venta1 = window.prompt("Venta 1 : " );
+        }
+        
+        var venta2 = window.prompt("Venta 2 : ");
+        while (isNaN(venta2)) {
+            var venta1 = window.prompt("Venta 2 : " );
+        }
+
+        var venta3 = window.prompt("Venta 3 : ");
+        while (isNaN(venta3)) {
+            var venta3 = window.prompt("Venta 3 : " );
+        }
+
+
+        // Paso 4.
+        var resultadoventas = ( parseFloat(venta1) + parseFloat(venta2) + parseFloat(venta3) );  
+        
+        var resultadogastos = ( parseFloat(gasto1) + parseFloat(gasto2));
+
+        var resultadocierrecaja = resultadoventas - resultadogastos
+        
+
+    </script>
+
+</body>
+</html>
