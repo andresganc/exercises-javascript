@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programa Suma</title>
+    <title>Programa Divion</title>
 
     <!-- Estilos CSS-->
     <link rel="stylesheet" href="css/main.css">
 
      <!-- Scripts JavaScript-->
-     <!-- <script type="text/javascript" src="js/suma.js"></script> -->
+     <script type="text/javascript" src="js/division.js"></script>
 
 </head>
 
@@ -22,10 +22,10 @@
         
         
         <article>
-            <h2>Programa : Suma </h2>
-            <p>1. El usuario debe ingresar 3 numeros por los input</p>
+            <h2>Programa : Division </h2>
+            <p>1. El usuario debe ingresar 2 numeros por los input</p>
             <p>2. Almacenar los numeros en variables diferentes</p>
-            <p>3. hacer el calculo de la suma de los 3 numeros dentro de una funcion </p>
+            <p>3. hacer el calculo de la suma de los 2 numeros dentro de una funcion </p>
             <p>4. Enlazar el boton con la funcion de la suma </p>
             <p>5. Mostrar el resultado en un label </p>
         </article>
@@ -35,7 +35,7 @@
 
         <article>
             <form>
-                <h4>Ingrese los numeros a sumar</h4>
+                <h4>Ingrese los numeros a dividir</h4>
                 <br>
                 <label>Numero 1 :</label>
                 <input id="InputNumero1" type="number">
@@ -43,13 +43,10 @@
                 <label>Numero 2 :</label>
                 <input id="InputNumero2" type="number">
                 <br>
-                <label>Numero 3 :</label>
-                <input id="InputNumero3" type="number">
-                <br><br>
                 <label>TOTAL : </label>
                 <label id="LabelTotal"> <strong> 0 </strong> </label>
                 <br><br>
-                <button onclick="suma();"> SUMAR </button>
+                <button onclick="dividir();"> DIVIDIR </button>
 
 
 
@@ -61,25 +58,6 @@
    
     <script>
         
-        function suma() {
-
-        // Paso 1 & 2
-        var numero1 = document.getElementById("InputNumero1").value;
-
-        var numero2 = document.getElementById("InputNumero2").value;
-
-        var numero3 = document.getElementById("InputNumero3").value;
-
-        // Paso 3
-        var resultado = ( parseFloat(numero1) + parseFloat(numero2) + parseFloat(numero3) );
-
-        // Paso 5.
-        document.getElementById("LabelTotal").innerHTML = resultado
-
-        window.alert("El resultado de la suma es : " + resultado);
-
-        }
-
     </script>
     
 </body>

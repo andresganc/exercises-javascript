@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Saber nota media</title>
+
+    <!-- Estilos CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+     <!-- Scripts JavaScript-->
+     <script type="text/javascript" src="js/nota-media.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="img/js.jpg" width="100%" alt="">
+    </header>
+
+    <section>
+        
+        
+        <article>
+            <h2> Pograma: Saber la mota media </h2>
+            <p>1. Pedir al usuario uno por uno el nombre, Edad, Grado, Sexo, Nota1, Nota2, Nota3 ( Por HTML5 )</p>
+            <p>2. Almacenar esos datos en variables</p>
+            <p>3. Calcular la nota media </p>
+            <p>4. Evaluar si es Femenino o Masculino y si es mayor de edad (switch e if )</p>
+            <p>5. Mostrar un mensaje con los datos de usuario y su nota media.</p>
+            <p>6. Mostar un mensaje que diga "GANO EL MATERIA :)" "PERDIO LA MATERIA :(" </p>
+
+            <P>Nota: Edad evaluar con un if </P>
+        </article>
+
+        <hr>
+        <br>
+
+        <article>
+            <form>
+                <h4>Ingrese el nombre, Apellido & su edad</h4>
+                <br>
+
+                <label>Nombre :</label>
+                <input id="InputNombre" type="text" placeholder="Nombre & Apellido">
+                <br>
+
+                <label>edad :</label>
+                <input id="InputEdad" type="number" placeholder="Edad">
+                <br>
+
+                <label>Grado :</label>
+                <input id="InputGrado" type="text" placeholder="Grado">
+                <br>
+
+                <label>Sexo :</label>
+                <select name="selectSexo" id="selectSexo">
+                    <option value="femenino" selected> Femenino</option> 
+                    <option value="masculino"> Masculino</option>
+                </select>
+                <br>
+
+                <label>Nota 1 :</label>
+                <input id="InputNota1" type="number" placeholder="Nota 1">
+                <br>
+
+                <label>Nota 2 :</label>
+                <input id="InputNota2" type="number" placeholder="Nota 2">
+                <br>
+
+                <label>Nota 3 :</label>
+                <input id="InputNota3" type="number" placeholder="Nota 3">
+                <br>
+                
+                
+                <br><br>
+                <button onclick="notamedia();"> CALCULAR </button>
+
+
+
+            </form>
+        </article>
+        
+    </section>
+
+   
+    <script>
+        
+    </script>
+    
+</body>
+</html>
