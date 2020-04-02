@@ -1,0 +1,42 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;       /* Tipo de letra */
+    font-size: smaller;         /* Tamaño de letra */
+}
+
+header {
+    background-color: chocolate;
+}
+
+section {
+    background-color: #D1D5E8;
+}
+
+article {
+    padding: 15px;          /* Margen interna - A todos los lados */
+}
+
+form {
+    text-align: center;         /* Alineacion de texto */
+}
+
+button {
+    background-color: royalblue;
+    color: beige;             /* Color de letra */
+    padding-left: 10px;         /* Margen interna - izquierda */
+    padding-right: 10px;        /* Margen interna - derecha */
+    padding-top: 5px;           /* Margen interna - arriba */
+    padding-bottom: 5px;        /* Margen interna - abajo */
+    border-radius: 6px;         /* Borde redondeado */
+}
+
+h2 {
+    color: dimgray;
+    text-align: center;
+}
+
+p {
+    color: dimgray;
+    text-align: center;
+}
+
