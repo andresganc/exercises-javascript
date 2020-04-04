@@ -4,83 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programa Calculos Matematicos</title>
+      <!-- Estilos CSS-->
+      <link rel="stylesheet" href="css/main.css">
 
-    <!-- Estilos CSS-->
-    <link rel="stylesheet" href="css/main.css">
+      <!-- Scripts JavaScripts-->
+      <script type="text/javascript" src="js/calculos-matematicos.js"></script>
+  </head>
+  <body>
+      <header>
+          <img src="img/js.jpg" width = "100%" alt="">
+      </header>
 
-     <!-- Scripts JavaScript-->
-     <!-- <script type="text/javascript" src="js/suma.js"></script> -->
+      <section>
+    <article>
 
-</head>
+        <h2>Programa: Calculos Matemmaticos</h2>
+        <p>El programa debe de pedir 2 números uno por uno al usuario</p>
+        <p>Sumarlos y mostrarle un mensaje con los números que ingreso y el resultado de la suma.</p>
 
-<body>
-    <header>
-        <img src="img/js.jpg" width="100%" alt="">
-    </header>
-
-    <section>
-        
-        
-        <article>
-            <h2>Programa : Calculos Matematicos </h2>
-            <p>1. El usuario debe seleccionar en un select si quiere sumar, restar, multiplicar o dividir </p>
-            <p>2. El usuario debe ingresar 2 numeros ( Por HTML5 )</p>
-            <p>3.  </p>
-            <p>4. Enlazar el boton con la funcion de la suma </p>
-            <p>5. Mostrar el resultado en un label </p>
-        </article>
-
-        <hr>
-        <br>
-
-        <article>
-            <form>
-                <h4>Ingrese los numeros a sumar</h4>
-                <br>
-                <label>Numero 1 :</label>
-                <input id="InputNumero1" type="number">
-                <br>
-                <label>Numero 2 :</label>
-                <input id="InputNumero2" type="number">
-                <br>
-                <label>Numero 3 :</label>
-                <input id="InputNumero3" type="number">
-                <br><br>
-                <label>TOTAL : </label>
-                <label id="LabelTotal"> <strong> 0 </strong> </label>
-                <br><br>
-                <button onclick="suma();"> CALCULAR </button>
+    </article>
 
 
 
-            </form>
-        </article>
-        
-    </section>
+    <article>
+        <form action="">
+            <h4>Calculo Matemático</h4>
+            <br>
+            <label>Seleccionar</label>
+            <select name="select"  id="selectseleccionar">
+                <option value="suma" selected>Suma</option>
+                <option value="resta">Resta</option>
+                <option value="multiplicar">Multiplicar</option>
+                <option value="dividir">Dividir</option>
+             </select>
+            <br>
+            <label>Numero1</label>
+            <input type="number" name="" id="Inputnumero1" placeholder="Numero1">
+            <br>
+            <label>Numero2</label>
+            <input type="number" name="" id="Inputnumero2" placeholder="Numero2">
+            <br>
+                       
+                  
 
-   
-    <script>
-        
-        function suma() {
+        <button onclick="Calculo();"> Calculo </button>
 
-        // Paso 1 & 2
-        var numero1 = document.getElementById("InputNumero1").value;
+        </form>
+    </article>
 
-        var numero2 = document.getElementById("InputNumero2").value;
+    <hr>
+    <br>
 
-        var numero3 = document.getElementById("InputNumero3").value;
-
-        // Paso 3
-        var resultado = ( parseFloat(numero1) + parseFloat(numero2) + parseFloat(numero3) );
-
-        // Paso 5.
-        document.getElementById("LabelTotal").innerHTML = resultado
-
-        window.alert("El resultado de la suma es : " + resultado);
-
-        }
-
-    </script>
-    
+   </section>
 </body>
 </html>
