@@ -54,6 +54,7 @@ import Boton from 'Button';
 // ========= PROPIEDADES ===========
 
 // objeto.propiedad="";
+// objeto.metodo();
 
 
 // Ej Objeto: carro1
@@ -71,11 +72,13 @@ import Boton from 'Button';
 // Ej Objeto: carro1
 // carro1.arrancar();
 
-// Ej Objeto: button
-// button.click();
 
 
 // Usos reales dentro del lenguaje
+
+// Ej Objeto: button
+// button.color="Azul"
+// button.inactivo();
 
 
 // console.log();

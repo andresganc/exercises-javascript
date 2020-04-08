@@ -52,7 +52,7 @@ Diferentes Clases podrían definir el mismo método o propiedad.
 
 */
 
-
+// SINTAXIS
 // Clase carro1 (Objeto carro1)
 class carro1 {
     
@@ -62,6 +62,7 @@ class carro1 {
         this.ventanas = "";
         this.motor = 1200;
     }    
+    
     
     // Metodo
     arrancar(){
@@ -74,10 +75,16 @@ class carro1 {
         return ("Velocidad : " );
     }
 
-    // Metodo esatico con return
+    // Metodo estaticos con return
     static frenar(){
         // Codigo aqui
-        return;
     }
-
 }
+
+// Instanciar la clase carro1 (Al instanciar la clase lo que hacemos es convertirlo en objeto)
+var carro = new carro1;
+
+carro.puertaColor = "Rojo";
+
+console.log ("La puerta del carro es de color :" , carro.puertaColor);
+

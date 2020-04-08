@@ -27,7 +27,8 @@ function operacionesMatematicas () {
     metodoResta(
         console.log("Hola metodo resta")
     );
-    
+
+       
 }
 
 // Clase carro1 (Objeto carro1)
