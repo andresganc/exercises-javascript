@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// Componentes
+import FormSumaFunctions from './views/basico/sections/FormSumaFunction'
+import FormSumaClases from './views/basico/sections/FormSuma'
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FormSumaFunctions />
+    <FormSumaClases />
   </React.StrictMode>,
   document.getElementById('root')
 );
