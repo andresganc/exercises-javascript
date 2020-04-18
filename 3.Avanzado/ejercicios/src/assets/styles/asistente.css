@@ -1,9 +1,12 @@
 
 
-body{
+body {
+
     display: inline-block;
     align-content: center;
     float: right;
     margin: auto;
     text-align: justify;
+    width: 25%;
+
 }

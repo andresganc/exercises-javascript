@@ -8,11 +8,12 @@ import * as serviceWorker from './serviceWorker';
 import FormSumaFunctions from './views/basico/sections/FormSumaFunction';
 import FormSumaClases from './views/basico/sections/FormSumaClase';
 import FormSumaSimple from './views/basico/sections/FormSumaSimple';
+import FormSuma from './views/basico/sections/FormSuma';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormSumaSimple />
+    <FormSuma />
   </React.StrictMode>,
   document.getElementById('root')
 );
