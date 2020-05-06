@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="css/main.css">
 
      <!-- Scripts JavaScript-->
-     <!-- <script type="text/javascript" src="js/suma.js"></script> -->
+     <script type="text/javascript" src="js/suma.js"></script>
 
 </head>
 
-<body>
+<body onload="main();">
     <header>
         <img src="img/js.jpg" width="100%" alt="">
     </header>
@@ -26,8 +26,7 @@
             <p>1. El usuario debe ingresar 3 numeros por los input</p>
             <p>2. Almacenar los numeros en variables diferentes</p>
             <p>3. hacer el calculo de la suma de los 3 numeros dentro de una funcion </p>
-            <p>4. Enlazar el boton con la funcion de la suma </p>
-            <p>5. Mostrar el resultado en un label </p>
+            <p>4. Mostrar el resultado en un label </p>
         </article>
 
         <hr>
@@ -47,9 +46,11 @@
                 <input id="InputNumero3" type="number">
                 <br><br>
                 <label>TOTAL : </label>
-                <label id="LabelTotal"> <strong> 0 </strong> </label>
+                <label id="LabelTotal"> 0 </label>
+
                 <br><br>
-                <button onclick="suma();"> SUMAR </button>
+                <button id="ButtonBorrar"> BORRAR </button>
+                <button id="ButtonSumar"> SUMAR </button>
 
 
 
@@ -58,7 +59,7 @@
         
     </section>
 
-   
+   <!--
     <script>
         
         function suma() {
@@ -81,6 +82,7 @@
         }
 
     </script>
+    -->
     
 </body>
 </html>
