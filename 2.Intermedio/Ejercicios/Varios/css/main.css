@@ -1,0 +1,125 @@
+
+
+@charset "utf-8";
+@font-face
+{
+	font-family:'fuente';
+	src:url('../KaushanScript-Regular.otf');
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!! MENUS !!!!!!!!!!!!!!!!!!!!!!!!!! */
+.nav-principal			/* Selector por ID */
+{
+	font: 14px verdana, sans-serif;			/* Tamaño, Fuente y Fuente alternativa*/
+	/*background: url(../images/bg1.png);*/			/*background-color:#edfbfc;  Color de fondo */
+	padding-top: 1;
+	padding-bottom: 1;
+	border-radius: 10px;
+	border: 3px solid rgb(145, 145, 145);					/* Borde 3px, Color Solido y color*/
+	box-shadow:rgb(57, 57, 57) 5px 5px 5px;	 		/* Sombra:#color D.Horizontal D.Vertical Difuminado*/
+	text-shadow:#999 2px 1px 0px;
+}
+
+.li
+{
+	display:inline;  		/*Quita la vista tipo bloc y lo pone tipo inline*/
+}
+/* !!!!!!!!!!!!!!!!!!!!!!! MENUS !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!!!!!!!!!!! BODY !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+body
+{
+	/*background-color:#00F;*/
+	background-image: url("../images/background2.jpg");
+	background-size: 100%;
+}
+
+#aside
+{
+	font: 12px verdana, sans-serif;
+	/*background: url(../images/bg2.png);*/
+	float: left;
+	margin-top: 5;			/* Margen externo*/
+	margin-left: 1;			/* Margen externo*/
+	margin-right: 0;		/* Margen externo*/
+	margin-bottom: 5;		/* Margen externo*/
+
+	height: 75%;
+	width: 20%;
+
+	padding-left: 10px; 		/* Margen interno*/
+}
+
+#section
+{
+	font: 12px verdana, sans-serif;
+	/*background: url(../images/bg2.png);*/
+	float: right;			/* Margen externo*/
+	margin-top: 5;			/* Margen externo*/
+	margin-left: 0;			/* Margen externo*/
+	margin-right: 1;		/* Margen externo*/
+	margin-bottom: 5;		/* Margen externo*/
+	height: 75%;
+	width: 78%;
+	padding-left: 10px;		/* Margen interno*/
+}
+/* !!!!!!!!!!!!!!!!!!!!!!! BODY !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!! */
+#footer
+{
+	/*background: url(../images/bg1.png);*/
+	clear: both;			/*Quita el float o flotante de los otros elementos y los reconoce como normal*/
+	padding-left: 5;
+}
+
+footer
+{
+	/* overflow: hidden; --------- Se usa cuando un objeto topa con otro - respetar los espacios de cada uno */
+}
+
+footer, p
+{
+	font: 14px ;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!!!!!!!!!!! GENERAL !!!!!!!!!!!!!!!!!!!!!!!!!! */
+.h1-1
+{
+	margin: 15px auto; 						/* Margen Arriba y Abajo de 15px e Izquierda y derecha Automatico*/
+	border: 2px solid #ffffff;
+	text-align: center;
+	padding: 3px;
+	background-position: center;
+	border-radius: 10px;
+	width: 35%;
+	font: bold 18px 'fuente';
+	color: rgb(89, 89, 89);
+	text-shadow: rgba(147, 124, 79, 0.91) 1px 1px 0px;		/* Sombra:#color D.Horizontal D.Vertical Difuminado --- A Texto */
+	background:-webkit-linear-gradient(top, rgb(181, 181, 181), rgb(247, 247, 247));		/* Comando:-Navegador-Efecto-Efecto(Inicia, Color, Color) */
+	box-shadow: #a7aab8 4px 5px 5px;		/* Sombra:#color D.Horizontal D.Vertical Difuminado --- A Caja */
+}
+
+.img-1
+{
+	padding: 3px;
+	border-radius: 8px;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+}
+
+#img:hover
+{
+/* Navegador-Comando: Escalar (valor a escalar)*/
+-webkit-transform:scale(1.8);	/* Navegador Google Chrome */
+-moz-transform:scale(1.2);		/* Navegador Mozilla Firefox */
+-op-transform:scale(1.2);		/* Navegador Opera */
+-ms-transform:scale(1.2);		/* Navegador MS I. Explorer */
+}
+
+.h3-1
+{
+	display:inline;  		/*Quita la vista tipo bloc y lo pone tipo inline*/
+}
+/* !!!!!!!!!!!!!!!!!!!!!!! GENERAL !!!!!!!!!!!!!!!!!!!!!!!!!! */

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Introduccion a JavaScript</title>
+
+
+
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
+    <script src="js/jquery-1.6.3.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+
+
+    <!--
+    Script dentro del codigo HTML. Nota: Puede estar ubicado en cualquier zona del codigo HTML
+    -->
+    <script>
+    $(function(){
+    $("body").hide().fadeIn(3000);
+    });
+    </script>
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="h1-1">Aprendiendo JavaScript</h1>
+    </header>
+
+    <nav class="nav-principal">
+      <ul>
+        <li class="li">* Inicio </li>
+        <li class="li">* Introduccion </li>
+        <li class="li">* Basicos </li>
+        <li class="li">* Medios </li>
+        <li class="li">* Complejos </li>
+
+      </ul>
+    </nav>
+
+    <aside id="aside">
+			<div>
+			<p onclick= "alert('Mensaje dentro de un evento ONCLICK');">Ejercicio 1 : Click aqui</p>
+			<p onclick= "Mensaje2();">Ejercicio 2 : Click aqui</p>
+      <p onclick= "Ejercicio3();">Ejercicio 3 : Click aqui</p>
+      <p onmouseover="OnMouseOver();">Ejercicio 4 - Pasar sobre - (onmouseover) </p>
+			</div>
+		</aside>
+
+    <section id="section">
+			<div>
+
+        <article>
+					<header>
+            <figure>
+              <img class="img-1" id="img" src="images/1.png" height="50" width="50">
+              <!--
+							<figcaption>
+								.
+							</figcaption>
+              -->
+						</figure>
+            <h3 class="h3-1"> Ejercicio 1: Ejecutar script dentro de un ONCLICK.</h2>
+            <p onclick= "alert('Mensaje dentro de un evento ONCLICK');">Ejercicio 1 : Click aqui</p>
+					</header>
+
+					<footer>
+						<p>Notas: Script que ejecuta un alert con un mensaje dentro del mismo evento onclick </p>
+					</footer>
+				</article>
+
+        <article>
+          <header>
+            <figure>
+              <img class="img-1" id="img" src="images/2.png" height="50" width="50">
+              <!--
+              <figcaption>
+                .
+              </figcaption>
+              -->
+            </figure>
+            <h3 class="h3-1"> Ejercicio 2: Ejecutar script dentro de un FUNCTION.</h2>
+            <p onclick= "Mensaje2();">Click aqui</p>
+          </header>
+
+          <footer>
+            <p>Notas: Script dentro de un function en archivo js externo que ejecuta un alert </p>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <figure>
+              <img class="img-1" id="img" src="images/3.png" height="50" width="50">
+              <!--
+              <figcaption>
+                .
+              </figcaption>
+              -->
+            </figure>
+            <h3 class="h3-1"> Ejercicio 3: Script que escribe en la web.</h2>
+            <p onclick= "Ejercicio3();">Click aqui</p>
+          </header>
+          <script>
+          var nombre = prompt("Ingrese su nombre :");
+          var edad = prompt("Ingresa tu edad :");
+          var año = 2016;
+
+          var añonacimiento = año - edad;
+
+          document.write("<p>");
+          document.write("Hola :" + nombre + " tu fecha de nacimiento es " + añonacimiento);
+          document.write("</p>");
+
+          </script>
+          
+          <footer>
+            <p>Notas: Script con variables almacenadas y mostradas en la web con un document.write(); </p>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <figure>
+              <img class="img-1" id="img" src="images/4.png" height="50" width="50">
+              <!--
+              <figcaption>
+                .
+              </figcaption>
+              -->
+            </figure>
+            <h3 class="h3-1"> Ejercicio 4: Script ONMOUSEOVER.</h2>
+          <p onmouseover= "OnMouseOver();">Pasar sobre la zona</p>
+          </header>
+
+          <footer>
+            <p>Notas: Script ejecutado al pasar con el mouse sobre la zona con el comando onmouseover. </p>
+          </footer>
+        </article>
+
+			</div>
+		</section>
+
+
+  </body>
+
+  <footer id="footer">
+		<p><address>email: andresganc@gmail.com</address></p>
+		<p><small>Derechos reservados</small> </p>
+	</footer>
+</html>
