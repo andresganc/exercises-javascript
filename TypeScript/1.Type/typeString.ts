@@ -7,6 +7,8 @@ let apellido: String;
 const cedula: Number = 94474361;
 var sexo: String = "Masculino";
 
+var estatura: String = "1.80"
+
 apellido = "Giraldo";
 
 console.log(`Nombre ${ nombre }` );

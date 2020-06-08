@@ -3,6 +3,7 @@ var nombre = "Andres";
 var apellido;
 var cedula = 94474361;
 var sexo = "Masculino";
+var estatura = "1.80";
 apellido = "Giraldo";
 console.log("Nombre " + nombre);
 console.log("Nombre: " + nombre + " Apellido: " + apellido + " Cedula: " + cedula + " Sexo: " + sexo);
