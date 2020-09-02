@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulos Import - Export</title>
+</head>
+<body>
+    <h2> Modulos - Import/Export</h2>
+
+    <p> <strong> Importando archivos js con import y export </strong> </p>
+    <p> Los import y export son de ES5 - ECMAScript2009 en adelante 
+        y se debe usar en HTML la propiedad type="module" para que funcione </p>
+
+    <p> Las politicas de seguridad de estas versiones no permiten ejecutar localmente / C:
+        Se debe ejecutar desde un servidor http:  </p>
+
+    <!-- Importando archivos js con import y export -->
+    <!-- 
+        Los import y export son de ES5 - ECMAScript2009 en adelante 
+        y se debe usar en HTML la propiedad type="module" para que funcione
+    -->
+    <script src="./js/modules.js" type="module"> </script>
+
+    <!-- 
+        Para dar soporte a exploradores antiguos y avisar que el explorador no soporta modulos
+        se crea otro archivo con el mensaje y se enlaza con la propiedad nomodule - Osea cuando se abra 
+        en un explorador viejo no ejecuta los otros y si este arxhivo avisando que el explorador es viejo
+        y no puede mostrar correctamente la app. 
+    -->
+    <script src="./js/no-modules.js" nomodule> </script>
+</body>
+</html>
