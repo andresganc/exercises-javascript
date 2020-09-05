@@ -41,3 +41,53 @@ console.log ("minusculas convertidas a mayusculas con toUpperCase".toUpperCase()
 // El método de recorte de una cadena devuelve una copia de la cadena con los espacios en blanco iniciales y finales eliminados. 
 console.log ("   espacios iniciales y finales recortados con trim   ".trim());
 
+
+// Creando un objeto de tipo string
+let nombre = 'Andres'
+let saludo = new String('Bienvenido');
+
+console.log(saludo, nombre)
+console.log('El nombre ', nombre, ' Tiene ',  nombre.length, ' Letras ' )
+
+
+// STRING PROPIEDAD LENGTH
+
+var x = 'Mozilla';
+var empty = '';
+
+console.log('Mozilla is ' + x.length + ' code units long');
+/* "Mozilla is 7 code units long" */
+
+console.log('The empty string has a length of ' + empty.length);
+/* "The empty string has a length of 0" */
+
+
+// METODOS DE LAS CADENAS DE TEXTO
+
+// TOUPPERCASE - TOLOWERCASE
+// Convertir a mayuscula y a minuscula un texto
+let name = "Andres"
+let lastname = "Giraldo"
+
+console.log('toUpperCase: Mayusculas', name.toUpperCase() )
+console.log('toLowerCase: Minuscula ', lastname.toLowerCase() )
+
+
+// INCLUDE
+// Saber si un texto esta incluido
+
+let lorem = "  Hola mi nombre es Andres Giraldo y soy Dev Full Stack  "
+
+console.log('El string con tiene la palabra Andres?', lorem.includes("Andres"))
+
+
+// TRIM
+// Quita los espacios en blanco al inicio y al final
+console.log('Con espacios :', lorem)
+console.log('Sin espacios :', lorem.trim())
+
+
+// SPLIT
+// Convierte una cadena de texto en un Array ( Sensible a espacios o comas )
+
+console.log('String lorem convertida a Array:', lorem.split(" "))

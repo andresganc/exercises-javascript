@@ -5,8 +5,8 @@
 <br>
 
 ## TABLA DE CONTENIDO
--[Que es JavaScript](#Que-es-JavaScript)
--[Nacimiento de JavaScript](#Nacimiento-de-JavaScript)
+- [Que es JavaScript](#Que-es-JavaScript)
+- [Nacimiento de JavaScript](#Nacimiento-de-JavaScript)
 
 <br>
 

@@ -12,6 +12,8 @@ var numero1 = 5;
 
 var ProductoNC = ["Camara fija interna", "camara fija externa", "DVR - XVR", "Video Balum"];
 
+ProductoNC.push("Producto agregado al array con push");
+
 var actors = ["Felicia", "Nathan", "Neil"];
 
 console.log (ProductoNC);
