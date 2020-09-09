@@ -37,3 +37,54 @@ console.log (-3);
 // También puede obtener un número negativo restando un número de un número más pequeño.
 console.log (5 - 7);
 //OUTPUT: -2
+
+
+
+// FORMA DE DECLARAR NUMEROS
+
+// Declaracion normal
+let num1 = 2
+// Declaracion de numero con su constructor
+let num2 = new Number(5)
+
+console.log(num1, num2)
+
+
+// ========== PROPIEDADES ============
+
+// MAX_VALUE
+
+// MIN_VALUE
+
+
+
+// ============= METODOS ==============
+
+// toFixed
+// El método toFixed() formatea un número usando notación de punto fijo. 
+
+let num_entero = '5'
+let num_decimal = 7.19
+
+console.log( `La variable es de tipo: ${typeof num_entero }` )
+console.log( `La variable es de tipo: ${typeof num_decimal }` )
+
+console.log(num_decimal.toFixed(2))
+console.log(num_decimal.toFixed(5))
+console.log(num_decimal.toFixed(1))
+
+
+//  pasrseInt
+// The Number.parseInt() method parses a string argument and returns an integer of the specified radix or base.
+// The Number.parseInt() El método Number.parseInt () analiza un argumento de cadena y devuelve un entero de la raíz o base especificada.
+
+console.log( parseInt(num_decimal) )
+
+
+// parseFloat
+// El método Number.parseFloat() parsea un argumento cadena y regresa un número de punto flotante. 
+// Este método se comporta de igual forma a la función global parseFloat() y es parte de ECMAScript 2015 
+// (su propósito es la modularización de los globales).
+
+console.log( parseFloat(num_decimal) )
+

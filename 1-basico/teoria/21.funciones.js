@@ -1,4 +1,5 @@
 
+
 // ============================================ FUNCIONES SIN PARAMETROS =================================
 
 
@@ -40,15 +41,14 @@ function sumaDatos( num1, num2 ) {
 
 
 // Funcion sumaDatos con parametros ( nombre, num1, num2, num3 )
-function sumaDatosNombre( nombre, num1, num2, num3) {
+// Desde ES6 tambien se pueden inicializar los ṕarametros de ña funcion
+function sumaDatosNombre( nombre, num1=0, num2=0, num3=0) {
 
     var resultado = ( parseInt(num1) + parseInt(num2) + parseInt(num3) ); 
     
     console.log("Hola ", nombre,  " el resultado de la suma es :", resultado);
 
 }
-
-
 
 
 
@@ -60,4 +60,22 @@ sumaDatosNombre ("Andres", 40, 60, 200);
 
 
 
+
+function estoEsUnaFuncion() {
+    console.log('uno')
+    console.log('dos')
+    return 20
+    console.log('tres')
+}
+
+estoEsUnaFuncion()
+
+
+function funcionQueDvuelveValor() {
+    return 'La funcion a retornado una cadena de texto'
+}
+
+let fa = funcionQueDvuelveValor()
+
+console.log(fa)
 
