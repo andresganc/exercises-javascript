@@ -89,5 +89,4 @@ console.log('Sin espacios :', lorem.trim())
 
 // SPLIT
 // Convierte una cadena de texto en un Array ( Sensible a espacios o comas )
-
 console.log('String lorem convertida a Array:', lorem.split(" "))
