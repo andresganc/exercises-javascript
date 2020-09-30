@@ -15,13 +15,14 @@ console.log(unoSin, dosSin, tresSin)
 
 // Con destructuracion
 
+// Ejemplo 1 - En Array
 let numerosCon = [67, 298, 4]
 const [unoCon, dosCon, tresCon] = numerosCon
 console.log(unoCon, dosCon, tresCon)
 
 
-// Ejemplo 2 
-
+// Ejemplo 2 - En objeto 
+// En un objeto se debe usar 
 let persona = {
     nombre: 'Andres',
     apellido: 'Giraldo',
