@@ -1,6 +1,14 @@
 
 
-### Librerias de JS para programacion funcional ( Para no cambiar el estado ) 
+### Librerias de JS con el paradigma de programacion funcional. 
+
+    - React
+
+    - Angular
+
+    - Vue
+
+    - Redux
 
     - Mori
 
@@ -11,6 +19,4 @@
     - Lodash
 
     - Ramda
-
-    - and more
 
