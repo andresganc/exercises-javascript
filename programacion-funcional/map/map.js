@@ -1,5 +1,9 @@
 
 // ================== MAP ================
+/*  
+Map Mapea el arreglo y puedes aplicar modificaciones a cada elemento
+Map devuelve las misma cantidad de elementos que el arreglo original.
+*/
 
 /* 
 - El metodo  de map nos permite transformar un arreglo.
