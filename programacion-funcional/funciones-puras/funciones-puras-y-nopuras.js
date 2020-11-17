@@ -1,24 +1,32 @@
 
 // FUNCIONES PURAS Y NO PURAS
 
-// Funcion no pura
+// Ej1: Funcion no pura
 // Esta accediendo a constantes externas que pueden ser modificadas y afectar el entorno
 let a = 10;
 let b = 15;
-
-function sumaInpura() {
+function sumaInpura1() {
     let resultado = (a + b);
     return resultado;
 }
+console.log('Funcion no pura - Ejemplo 1 : ', sumaInpura1());
 
-console.log(sumaInpura());
+
+// Ej2: Funcion pura
+// Es inpura por que estamos usando el objeto console que es un objeto global de window
+function sumaInpura2(numA, numB) {
+    console.log('Funcion no pura - Ejemplo 2 :', numA + numB );
+}
+sumaInpura2(45, 5);
 
 
-// funcion pura
-// No esta accediendo a variables fuera de su metodo
+// Funcion pura
+/*
+Es pura porque no esta accediendo a variables fuera de su metodo o funcion y no se esta usando 
+objetos globales de window dentro de ella
+*/
 function sumaPura(num1, num2) { 
     let resultado = num1 + num2;
     return resultado;
 }
-
-console.log(sumaPura(987, 6846))
+console.log(`Funcion pura - Ejemplo 1: ${sumaPura(987, 6846)}`)
