@@ -2,7 +2,16 @@
 // FUNCIONES PURAS Y NO PURAS
 
 // Ej1: Funcion no pura
-// Esta accediendo a constantes externas que pueden ser modificadas y afectar el entorno
+/* 
+Esta accediendo a constantes externas que pueden ser modificadas y afectar el entorno
+
+Ejemplo de Acciones, Elementos o Funciones impuras
+- Compartir una variable o estado ( Estado en comun - Por eso usar tecnologias con store de estados ).
+- Random - Algo que genere un valor aleatorio es inpuro
+- Algo que dependa de la fecha
+- Al dependiendo del sistema de archivos
+*/
+
 let a = 10;
 let b = 15;
 function sumaInpura1() {

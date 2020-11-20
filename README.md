@@ -1,14 +1,14 @@
-# [<img src="./documentation/img/javascript-portada.png" width="600" />](https://es.wikipedia.org/wiki/JavaScript)
+# [<img src="./documentation/img/javascript-portada.png" width="600" />](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-# CURSO NC DE JAVASCRIPT
+# [<img src="./documentation/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE JAVASCRIPT
 
-<br>
+<br><br>
 
-## TABLA DE CONTENIDO
+### TABLA DE CONTENIDO
 - [Que es JavaScript](#Que-es-JavaScript)
 - [Nacimiento de JavaScript](#Nacimiento-de-JavaScript)
 
-<br>
+<br><br><br>
 
 ### Que es JavaScript
 
