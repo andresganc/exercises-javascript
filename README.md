@@ -1,6 +1,6 @@
-# [<img src="./documentation/img/javascript-portada.png" width="600" />](https://developer.mozilla.org/es/docs/Web/JavaScript)
+# [<img src="./readme/img/javascript-portada.png" width="600" />](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-# [<img src="./documentation/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE JAVASCRIPT
+# [<img src="./readme/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE JAVASCRIPT
 
 <br><br>
 
@@ -14,7 +14,7 @@
 
 <br>
 
-# [<img src="./documentation/img/javascript-logo.png" width="100"/>](https://es.wikipedia.org/wiki/JavaScript)
+# [<img src="./readme/img/javascript-logo.png" width="100"/>](https://es.wikipedia.org/wiki/JavaScript)
 
 <br>
 
@@ -39,7 +39,7 @@
 
 <br>
 
-# [<img src="./documentation/img/brendan-eich.jpg" width="200"/>](https://es.wikipedia.org/wiki/Brendan_Eich)
+# [<img src="./readme/img/brendan-eich.jpg" width="200"/>](https://es.wikipedia.org/wiki/Brendan_Eich)
 Brendan Eich - Mozilla Foundation official photo
 
 <br>
