@@ -144,3 +144,12 @@
     - Lodash
     - Ramda
 
+
+### Vector trides ()
+
+    - Inmutablet.js
+    - Ramda
+
+
+
+
