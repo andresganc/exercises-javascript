@@ -21,7 +21,7 @@ const numerosMultiplicados = numeros.map( x => x * 2);
 console.log(`Array original ${numeros}`);
 console.log(`Array de numeros multiplicados ${numerosMultiplicados}`);
 
-// Usando map para mapear 
+// Usando map para mapear y ordenar por parejas
 const numerosParejas = numeros.map( x => [x,x] );
 console.log(`Array ordenado por parejas - vista parentesis invertidos ${numerosParejas}`);
 console.log('Array ordenado por parejas - vista normal ', numerosParejas)
