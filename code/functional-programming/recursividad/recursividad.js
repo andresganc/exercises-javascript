@@ -27,13 +27,14 @@ conteoRegresivo(10)
 */  
 
 //const axios = require('axios')    // Recomendado: No usar require 
-import { axios } from './axios'
+//import { axios } from './axios'
+import axiod from "https://deno.land/x/axiod/mod.ts";       // Axios para DENO
 
 const llamarAPI = async (url, llamados = 0) => {
     
     try {
 
-        const result = await axios.get(url)
+        const result = await axiod.get(url)
         
         console.log(result)
         return result    
@@ -49,5 +50,5 @@ const llamarAPI = async (url, llamados = 0) => {
     }
 }
 
-//llamarAPI('https://jsonplaceholder.typicode.com/users')
-llamarAPI('https://jsonplaceholder.typicode.com/posts/1')
+llamarAPI('https://jsonplaceholder.typicode.com/users')
+//llamarAPI('https://jsonplaceholder.typicode.com/posts/1')
