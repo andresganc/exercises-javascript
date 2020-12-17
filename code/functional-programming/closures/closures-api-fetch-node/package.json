@@ -1,0 +1,14 @@
+{
+  "name": "closures-api-fetch-node",
+  "version": "1.0.0",
+  "description": "Ejercicio closures consumiendo una api usando fetch ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres Giraldo",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
