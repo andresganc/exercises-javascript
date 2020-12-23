@@ -39,17 +39,20 @@ console.log(`Nombre generado con funcion sin composicion: ${x}`);
 
 
 
-// FUNCION CON COMPOSICION 
+// FUNCION CON COMPOSE 
 /* 
 - Codigo ejemplo de una funcion con composicion de funciones mas pequeñas
 
 - Funciones pequeñas
-    1. Get the first value of the array
-    2. Capitalized name 
-    3. Generate name
-    3. Get full name
-    4. Printer
+    1Fun. Get the first value of the array
+    2Fun. Capitalized name 
+    3Fun. Generate name
+    3Fun. Get full name
+    4Fun. Printer
 */
+
+// Plantilla compose
+const compose = (...fns) => x => fns.reduceRight((y, f) => f(y), x)
 
 // 1. Get the first value of the array
 const head = x => x[0]
@@ -64,12 +67,8 @@ const capitalized = x => ({
 const generateName = x => `${x.nombre} ${x.apellido}`
 
 // 4. Get full name
-const getFullName = (_users) => {
-    const nombreApellido = head(_users)
-    const capitalizados = capitalized(nombreApellido)
-    return generateName(capitalizados)
-}
+const getFullName = compose(generateName, capitalized, head)
 
 // 5. Printer
 const xComp = getFullName(users)
-console.log(`Nombre generado con composicion: ${xComp}`);
+console.log(`Nombre generado con compose: ${xComp}`);
