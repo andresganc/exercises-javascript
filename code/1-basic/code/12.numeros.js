@@ -63,22 +63,30 @@ console.log(num1, num2)
 // toFixed
 // El método toFixed() formatea un número usando notación de punto fijo. 
 
-let num_entero = '5'
+let num_entero_string = '5'
+let num_entero = 8
 let num_decimal = 7.19
 
-console.log( `La variable es de tipo: ${typeof num_entero }` )
+
+console.log( `La variable es de tipo: ${typeof num_entero_string }` )
+// Output: La variable es de tipo: string
 console.log( `La variable es de tipo: ${typeof num_decimal }` )
+// Output: La variable es de tipo: number
 
 console.log(num_decimal.toFixed(2))
+//Outout: 7.19
 console.log(num_decimal.toFixed(5))
+// Output: 7.19000
 console.log(num_decimal.toFixed(1))
+// Output: 7.2
 
 
 //  pasrseInt
 // The Number.parseInt() method parses a string argument and returns an integer of the specified radix or base.
 // The Number.parseInt() El método Number.parseInt () analiza un argumento de cadena y devuelve un entero de la raíz o base especificada.
 
-console.log( parseInt(num_decimal) )
+console.log( parseInt(num_entero_string) )
+// Output: 7
 
 
 // parseFloat
@@ -86,5 +94,5 @@ console.log( parseInt(num_decimal) )
 // Este método se comporta de igual forma a la función global parseFloat() y es parte de ECMAScript 2015 
 // (su propósito es la modularización de los globales).
 
-console.log( parseFloat(num_decimal) )
-
+console.log( parseFloat(num_entero_string) )
+// Output: 7.19
