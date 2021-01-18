@@ -1,7 +1,6 @@
 
 // TRY - CATCH - FINALLY
 // Metodos para capturar errores
-
 try {
     console.log('En el try se agrega el codigo a evaluar');
 } catch(error) {
@@ -10,14 +9,15 @@ try {
     console.log('El bloque finally se ejecutara siempre al final de un bloque try catch')
 }
 
-// Ejemplo
 
+// Ejemplo
 try {
     noexiste
 } catch (error) {
     console.log(`Error. catch ha capturado un error. El error es: ${error}`);
     console.log('Ya no aparece el mensaje de error rojo en consola por que los errores ya los esta gestionando try catch');
 }
+
 
 // Lanzar un error
 try {
