@@ -1,0 +1,79 @@
+
+.sf {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(145deg, #2979FF, #448AFF, #82B1FF);
+    border-radius: 10px;
+}
+
+.sf-form {
+    width: 30%;
+    display: grid;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sf-img-title {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.sf-title {
+    text-align: center;
+    color: #fff;
+}
+
+.sf-img-input {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.sf-div-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.sf-input {
+    width: 350px;
+    margin: 8px 0;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.sf-div-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.sf-button-clear {
+    display: flex;
+    align-content: center;
+    padding: 7px 16px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    color: #fff;
+    background-color: #616161;
+    cursor: pointer;
+}
+
+.sf-button-send {
+    padding: 7px 16px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #616161;
+    cursor: pointer;
+}
+
+.sf-img-buttons {
+    width: 15px;
+    margin-right: 5px;
+}
