@@ -10,14 +10,12 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css">
 
-    <!-- Script -->
-    <script src="./js/form-to-email.js"></script>
 </head>
 
 <body>
 
     <section class="sf">
-        <form action="" class="sf-form">
+        <form id="form" action="" class="sf-form">
             <img class="sf-img-title" src="./img/wpforms-brands.svg" alt="" width="50px">
             <h3 class="sf-title"> CONTACTENOS </h3>
             <div class="sf-div-inputs">
@@ -46,14 +44,24 @@
                     <img class="sf-img-buttons" src="./img/eraser-solid.svg" alt="">
                     LIMPIAR
                 </button>
-                <button name="button-send" id="button-send" class="sf-button-send">
+                <button type="submit" name="button-send" id="button-send" class="sf-button-send" >
                     <img class="sf-img-buttons" src="./img/paper-plane-solid.svg" alt="">
-                    ENVIAR
+                    ENVIAR SUBMIT
+                </button>
+                <button type="button" name="button-send" id="button-send" class="sf-button-send" >
+                    <img class="sf-img-buttons" src="./img/paper-plane-solid.svg" alt="">
+                    ENVIAR ONCLICK
                 </button>
             </div>
-
         </form>
+        <a id="mailto" href="mailto:andresganc@gmail.com" class="sf-mailto">mail</a>
     </section>
+
+    <!-- Script JS - Submit -->
+    <script src="./js/form-to-email-submit.js"></script>
+
+    <!-- Script JS - Button - OnClick -->
+    <script src="./js/form-to-email-button-onclick.js"></script>
 
 </body>
 
