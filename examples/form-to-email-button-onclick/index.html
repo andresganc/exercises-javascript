@@ -10,6 +10,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css">
 
+    
 </head>
 
 <body>
@@ -44,24 +45,18 @@
                     <img class="sf-img-buttons" src="./img/eraser-solid.svg" alt="">
                     LIMPIAR
                 </button>
-                <button type="submit" name="button-send-submit" id="button-send-submit" class="sf-button-send" >
+                <button  onclick="handleFormEmailOnClick(event);" type="button" name="button-send-onclick" id="button-send-onclick" class="sf-button-send" >
                     <img class="sf-img-buttons" src="./img/paper-plane-solid.svg" alt="">
-                    ENVIAR SUBMIT
-                </button>
-                <button  onclick="handleFormEmailOnClick();" type="button" name="button-send-onclick" id="button-send-onclick" class="sf-button-send" >
-                    <img class="sf-img-buttons" src="./img/paper-plane-solid.svg" alt="">
-                    ENVIAR ONCLICK
+                    ENVIAR
                 </button>
             </div>
         </form>
-        <a id="mailto" href="mailto:andresganc@gmail.com" class="sf-mailto">mail</a>
+        <a id="mailto" href="mailto:andresganc@gmail.com" class="sf-mailto" target="_blank">mail</a>
     </section>
-
-    <!-- Script JS - Submit -->
-    <script src="./js/form-to-email-submit.js"></script>
 
     <!-- Script JS - Button - OnClick -->
     <script src="./js/form-to-email-button-onclick.js"></script>
+
 
 </body>
 
