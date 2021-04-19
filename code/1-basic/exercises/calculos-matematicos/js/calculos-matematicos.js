@@ -5,7 +5,6 @@ function Calculo() {
     
         var eleccion = document.getElementById("selectseleccionar").value;
         
-
         if (eleccion == "suma") {
             suma();
         } else if (eleccion == "resta") {
@@ -17,8 +16,6 @@ function Calculo() {
         }
 
     }
-
-
 
 
     function suma() {
