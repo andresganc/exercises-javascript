@@ -1,7 +1,7 @@
 
 /* 
 SetTimeout es un metodo para generar tiempo pero solo se puede 
-usar en asincronia con callbacks y promises. para pador usarlo 
+usar en asincronia con callbacks y promises. para poder usarlo 
 con async await se debe convertir con la funcion util.
 */ 
 
@@ -14,14 +14,13 @@ module.exports = {
     async taskOne() {
         try {
             //throw new Error('Some problem');
-            await sleep(4000);
+            await sleep(3000);
             return 'ONE VALUE';
         } catch (error) {
             console.log(error);
         }
-
-        
     },
+
 
     async taskTwo() {
         try {
@@ -29,8 +28,7 @@ module.exports = {
             return 'TWO VALUE';
         } catch (error) {
             console.log(error);
-        }
-        
+        }  
     }
 
 }
