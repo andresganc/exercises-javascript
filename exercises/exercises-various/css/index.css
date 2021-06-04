@@ -1,0 +1,88 @@
+
+.main {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+
+
+/* ======== HEADER ======== */
+.header {
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.header--title {
+    color: #ffff;
+}
+
+
+
+/* ======== BODY ======== */
+.body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.body--card1 {
+    justify-content: center;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.body--card1-div-header {
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.body--card1-title {
+    color: #AEEA00;
+}
+
+.body--card1-div-body {
+    margin: 20px 0;
+}
+
+
+
+.body--card2 {
+    justify-content: center;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.body--card2-div-header {
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.body--card2-title {
+    color: #AEEA00;
+}
+
+.body--card2-div-body {
+    margin: 20px 0;
+}
+
+
+/* ======== FOOTER ======== */
+.footer {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #AEEA00;
+}
+
