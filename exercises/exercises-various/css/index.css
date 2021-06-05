@@ -17,7 +17,7 @@
 }
 
 .header--title {
-    color: #ffff;
+    color: #AEEA00;
 }
 
 
@@ -40,19 +40,22 @@
     background-color: #ffff;
 }
 
+.body--a {
+    text-decoration: none;
+}
+
 .body--card1-div-header {
     justify-content: center;
     margin: 20px 0;
 }
 
 .body--card1-title {
-    color: #AEEA00;
+    color: #616161;
 }
 
 .body--card1-div-body {
     margin: 20px 0;
 }
-
 
 
 .body--card2 {
@@ -69,12 +72,13 @@
 }
 
 .body--card2-title {
-    color: #AEEA00;
+    color: #616161;
 }
 
 .body--card2-div-body {
     margin: 20px 0;
 }
+
 
 
 /* ======== FOOTER ======== */
@@ -84,5 +88,16 @@
     text-align: center;
     padding: 20px;
     background-color: #AEEA00;
+}
+
+.footer--title {
+    color: #424242;
+    margin: 1px 0;
+}
+
+.footer--nc {
+    font-size: .7rem;
+    color: #616161;
+    margin: 1px 0;
 }
 
