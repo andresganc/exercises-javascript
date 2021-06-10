@@ -1,0 +1,81 @@
+
+
+/* ===== MENU ===== */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #AEEA00;
+}
+
+.menu--ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu--li {
+    margin: 0 7px;
+    list-style: none;
+}
+
+.menu--a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+
+/* ===== BODY ===== */
+.body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+
+/* ===== ASIDE LEFT ===== */
+.aside-left {
+    display: grid;
+    background-color: #424242;
+    padding: 20px;
+}
+
+.aside-left--div-header-img {
+    display: grid;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.aside-left--div-header-title {
+    margin: 5px 0;
+}
+
+.aside-left--title {
+    color: #AEEA00;
+}
+
+.aside-left--div-body {
+    margin: 5px 0;
+}
+
+.aside-left--li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.aside-left--a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+/* ===== MAIN ===== */
+.main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+
+/* ===== ASIDE RIGHT ===== */
+.aside-right {
+    background-color: #616161;
+}
+

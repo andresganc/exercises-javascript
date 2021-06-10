@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> String Characters </title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../scss/dist/string-characters.css">
+</head>
+<body>
+
+    <header class="header">
+        <h2> String Characters </h2>
+        <p> 1) Programa una función que cuente el número de caracteres de una cadena de texto, Ej. miFuncion("Hola Mundo") devolverá 10. </p>
+        <p> 2) Programa una función que te devuelva el texto recortado según el número de caracteres indicados, Ej. miFuncion("Hola Mundo", 4) devolverá "Hola". </p>
+        <p> 3) Programa una función que dada una String te devuelva un Array de textos separados por cierto caracter, Ej. miFuncion('hola que tal', ' ') devolverá ['hola', 'que', 'tal']. </p>
+        <p> 4) Programa una función que repita un texto X veces, Ej. miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo. </p>
+    </header>
+    
+    <section class='section'>
+
+        <article>
+            <h4> Exercise 1 - Evaluar el largo de la cadena texto </h4>
+            <p> Ingrese la cadena de texto a evaluar el largo </p>
+            <input type="text" class="classSCE1" id='idSCE1' name='nameSCE1'>
+            <button onclick="stringCharactersE1()"> Evaluar </button>
+        </article>
+
+        <article>
+            <h4> Exercise 2 - Mostrar X caracteres indicados de la cadena </h4>
+            <p> Ingrese la cadena de texto </p>
+            <input type="text" id='idSCE2'>
+            <p> Ingrese la cantidad caracteres a mostrar </p>
+            <input type="number" id='idSCEC2'>
+            <button onclick="stringCharactersE2()"> Ejecutar </button>
+        </article>
+
+        <article>
+            <h4> Exercise 3 - Cortar X caracteres indicados de la cadena </h4>
+            <p> Ingrese la cadena de texto o numero </p>
+            <input type="text" id='idSCE3'>
+            <p> Ingrese la cantidad caracteres a cortar </p>
+            <input type="number" id='idSCEC3'>
+            <button onclick="stringCharactersE3()"> Ejecutar </button>
+        </article>
+
+    </section>
+    
+    <script src="../js/string-characters.js"></script>
+</body>
+</html>
