@@ -19,8 +19,8 @@ app.use('/', function(req, res, next){
 
 app.get('/', (req, res) => {
   console.log("Render Working")
-  res.send()
-  res.render('App')
+  res.sendFile(__dirname + '/index.html')
+  res.render(__dirname + '/index.html')
 })
 
 
