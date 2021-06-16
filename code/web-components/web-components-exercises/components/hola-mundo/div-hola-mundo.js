@@ -5,9 +5,10 @@ class DivHolaMundo extends HTMLElement {
     }
 
     connectedCallback(){
-        this.innerHTML = `<div> 
-        Component with HTML
-        </div>`;
+        this.innerHTML = `
+            <div> 
+                Div hola mundo
+            </div>`;
         this.style.color = "red";
     }
 }
