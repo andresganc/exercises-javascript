@@ -9,11 +9,19 @@ class ButtonWC extends HTMLElement {
         let shadowRoot = this.attachShadow({ mode: 'open' })
         shadowRoot.innerHTML = `
         <style>
-            .btn {
-                color: #1E88E5;
-                background: light-gray;
-                padding: 5px 15px;
+
+            :root {
+                --button-bgcolor: #2979FF;
+                --button-textcolor: #ffff;   
             }
+
+            .btn {
+                color: var(--button-textcolor);
+                background-color: var(--button-gbcolor);
+                padding: 5px 15px;
+                border-radius: 5px;
+            }
+
         </style>
 
         <button class='btn'> Guardar </button>
