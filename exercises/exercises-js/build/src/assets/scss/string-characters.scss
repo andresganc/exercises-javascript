@@ -1,0 +1,34 @@
+
+.header {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+    h2 {
+        color: #1E88E5;
+        font-size: 1rem;
+    }
+
+    p {
+        color: #757575;
+        font-size: .8rem;
+    }
+}
+
+.section {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+
+    h4 {
+        color: #616161;
+        font-size: .9rem;
+    }
+
+    p {
+        color: #757575;
+        font-size: .8rem;
+    }
+}
