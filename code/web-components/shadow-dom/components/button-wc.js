@@ -33,7 +33,7 @@ class ButtonWC extends HTMLElement {
 
         </style>
 
-        <button class='btn'> Guardar </button>
+        <button class='btn'> Shadow Dom </button>
         `
     }
 

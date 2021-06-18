@@ -6,8 +6,7 @@ class ButtonWC extends HTMLElement {
     }
 
     connectedCallback() {
-        let shadowRoot = this.attachShadow({ mode: 'open' })
-        shadowRoot.innerHTML = `
+        this.innerHTML = `
         <style>
 
             host {
@@ -30,10 +29,9 @@ class ButtonWC extends HTMLElement {
                 transition: .2s;
             }
             
-
         </style>
 
-        <button class='btn'> Guardar </button>
+        <button class='btn'> Custom Element </button>
         `
     }
 

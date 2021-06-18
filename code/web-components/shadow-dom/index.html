@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shadow Dom </title>
+</head>
+<body>
+    <h2> SHADOW DOM </h2>
+    <p> - El concepto de Shadow DOM nace de la necesidad de tener una forma de encapsular elementos y mantenerlos aislados del resto de la página, 
+        creando algo así como un concepto local, en contraposición al concepto global con el que se solía trabajar en los navegadores.
+        Quizás, la forma más fácil de entender el concepto de Shadow DOM, 
+        es haciendo una analogía precisamente a lo que su propio nombre indica: una sombra de un elemento. 
+    </p>
+
+    <button-wc></button-wc>
+
+    <p> Componente con estilos encapsulados con shadow dom (No altera de adentro hacia afuera o de afuera hacia dentro los estilos) </p>
+
+    <!-- Components -->
+    <script src="./components/button-wc.js"></script>
+</body>
+</html>
