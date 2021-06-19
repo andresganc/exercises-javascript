@@ -8,32 +8,29 @@ class ButtonWC extends HTMLElement {
     connectedCallback() {
         let shadowRoot = this.attachShadow({ mode: 'open' })
         shadowRoot.innerHTML = `
-        <style>
+            <style>
+                host {
+                    --button-textcolor: #ffff;  
+                    --button-bgcolor: #2979FF;  
+                }
 
-            host {
-                --button-textcolor: #ffff;  
-                --button-bgcolor: #2979FF;  
-            }
+                .btn {
+                    color: #ffff;
+                    background-color: #2979FF;
+                    padding: 8px 20px;
+                    border-radius: 5px;
+                    border-style: none;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                }
 
-            .btn {
-                color: #ffff;
-                background-color: #2979FF;
-                padding: 8px 20px;
-                border-radius: 5px;
-                border-style: none;
-                cursor: pointer;
-                text-transform: uppercase;
-            }
+                .btn:hover {
+                    background-color: #448AFF;
+                    transition: .2s;
+                }
+            </style>
 
-            .btn:hover {
-                background-color: #448AFF;
-                transition: .2s;
-            }
-            
-
-        </style>
-
-        <button class='btn'> Shadow Dom </button>
+            <button class='btn'> Shadow Dom </button>
         `
     }
 
