@@ -11,8 +11,8 @@
     "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
-    "typescript": "^3.5.3"
+    "parcel": "^2.0.0-beta.2",
+    "typescript": "^4.3.5"
   },
   "browserslist": [
     "last 1 Chrome version"
