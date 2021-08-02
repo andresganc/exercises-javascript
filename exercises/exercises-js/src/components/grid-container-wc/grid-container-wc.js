@@ -1,5 +1,5 @@
 
-class ContainerWC extends HTMLElement {
+class GridContainerWc extends HTMLElement {
     constructor() {
         super();
         //implementation
@@ -8,13 +8,14 @@ class ContainerWC extends HTMLElement {
     connectedCallback() {
         let shadowRoot = this.attachShadow({mode: 'open'})
         shadowRoot.innerHTML = `
-            <style>
-                .main {
-                }
-            </style>
-            <div class='main'>
-                <slot></slot>
-            </div>
+        <style>
+            .main {
+                display: grid;
+            }
+        </style>
+        <div class='main'>
+            <slot></slot>
+        </div>
         `
     }
 
@@ -32,4 +33,4 @@ class ContainerWC extends HTMLElement {
 
 }
 
-window.customElements.define('container-wc', ContainerWC);
+window.customElements.define('grid-container-wc', GridContainerWc);

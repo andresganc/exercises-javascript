@@ -1,5 +1,5 @@
 
-class ButtonWc extends HTMLElement {
+class TagWc extends HTMLElement {
     constructor() {
         super();
         //implementation
@@ -23,4 +23,4 @@ class ButtonWc extends HTMLElement {
 
 }
 
-window.customElements.define('button-wc', ButtonWc);
+window.customElements.define('tag-wc', TagWc);
