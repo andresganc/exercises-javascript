@@ -54,7 +54,7 @@ class MenuBasic01Wc extends HTMLElement {
         <nav class='menu'>
             <slot></slot>
             <ul class='menu--logo'>
-                <image src='./src/assets/img/ts-logo-black.png' width='35'>
+                <image src='./src/assets/img/js-logo-black-02.png' width='35'>
             </ul>
 
             <ul class='menu--ul'>

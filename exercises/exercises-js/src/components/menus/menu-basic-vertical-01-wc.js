@@ -110,7 +110,7 @@ class MenuBasicVertical01Wc extends HTMLElement {
 
             <div class='main--header'>
             <div>
-                <image class='main--header-logo' src='./src/assets/img/typescript-logo.png' width='30'>
+                <image class='main--header-logo' src='./src/assets/img/javascript.png' width='30'>
                 <h3 class='main--header-title'> TYPESCRIPT <h3>
             </div>
         </div>
