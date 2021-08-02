@@ -1,6 +1,6 @@
 
 
-function saludar( nombre: string ) {
+function saludar( nombre ) {
     return `Hola, ${ nombre.toUpperCase() }`
 }
 
