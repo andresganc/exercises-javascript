@@ -51,8 +51,8 @@ console.log(`Nombre generado con funcion sin composicion: ${x}`);
     4Fun. Printer
 */
 
-// Plantilla compose
-const compose = (...fns) => x => fns.reduceRight((y, f) => f(y), x)
+
+// Functions to execute
 
 // 1. Get the first value of the array
 const head = x => x[0]
@@ -66,9 +66,18 @@ const capitalized = x => ({
 // 3. Generate name
 const generateName = x => `${x.nombre} ${x.apellido}`
 
-// 4. Get full name
-const getFullName = compose(generateName, capitalized, head)
 
-// 5. Printer
-const xComp = getFullName(users)
-console.log(`Nombre generado con compose: ${xComp}`);
+
+// Plantilla compose - First we generate the template
+const compose = (...fns) => x => fns.reduceRight((y, f) => f(y), x)
+
+// Point free Or Tasita programming
+const getFullName =  compose( generateName, capitalized, head )
+
+const funs = getFullName(users)
+console.log(`Nombre generado con compose: ${funs}`);
+
+
+
+
+
