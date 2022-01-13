@@ -9,3 +9,18 @@ FETCH - CONEXIONES API EN JAVASCRIPT
 - Devuelve una promesa por default pero tambien se puede trabajar con Async Await
 
 */
+
+
+// Example fetch
+fetch('http://example.com/movies.json')
+    .then(response => response.json())
+    .then(data => console.log(data));
+
+
+// Example with catch
+fetch('http://example.com/movies.json')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
+
+  

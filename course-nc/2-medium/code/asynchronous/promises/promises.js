@@ -4,7 +4,10 @@
 - Las promesas se crearon para solucionar el codigo piramidal y poco legible
     de los callback. Los famosos callback-hell 
 
-- Las promesas son funciones con parametros req y res (Requerimiento - Respuesta) que tienen internamente un 
+- Las promesas son funciones con parametros que tienen internamente un 
+req y res 
+(Request - response)
+(Requerimiento - Respuesta)
 .then si es ok
 .catch si es error
 

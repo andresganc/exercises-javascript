@@ -1,9 +1,5 @@
 
-// ============== CALLBACKS ==============
-/*
-Los callbacks son el inicio para manejar la asincronia
-algunos de los inconvenientes es que generan un codigo piramidal
-*/
+// CALLBACKS 
 
 function requestHandler1(req, res) {
     // Consulta
@@ -32,3 +28,49 @@ function requestHandler1(req, res) {
                 }
             })
         }
+    })
+}
+
+
+
+// PROMISES
+
+function requestHandlerJS(req, res) {
+    // Consulta User
+    User.findById(req.userId)
+        // Si ok realizo una consulta .then (Entonces)
+        // Consulto usuarios
+        .then(function (user) {
+            return tasks.findById(user.tasksId)
+        })
+        // Si usuarios ok consulto las tareas de ese usuario
+        .then(function (tasks) {
+            tasks.completed = true;
+            return tasks.save();
+        })
+        .then(function () {
+            res.send('Tareas completadas')
+        })
+        // El catch captura todos los errores de los then que haya
+        // No es como los callback que se tiene que gestionar un error por cada consulta
+        .catch(function (errors) {
+            res.send(errors)
+        })
+}
+
+
+// ASYNC - AWAIT
+
+async function requesHandlerJS(req, res) {
+
+    try {
+        const user = await User.findById(req.userId);
+        const tasks = await  Tasks.findById(user.tasksId);
+        tasks.completed = true;
+        await tasks.save();
+        res.send('Task completed');
+    } catch (error) {
+        res.send(error);
+    }
+  
+}
