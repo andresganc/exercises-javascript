@@ -11,17 +11,15 @@ fetch(url2)
 
 const showData = (data) => {
 
-    let dataBody = ''
     for (let i = 0; i < data.length; i++) {
         
-        dataBody += `
-        <tr>
-            <td>${data[i].id}</td>
-            <td>${data[i].name}</td>
-            <td>${data[i].email}</td>
-        </tr>
+        document.getElementById('data').innerHTML += `
+            <tr>
+                <td>${data[i].id}</td>
+                <td>${data[i].name}</td>
+                <td>${data[i].email}</td>
+            </tr>
         `
-        document.getElementById('data').innerHTML = dataBody
          
     }
 
