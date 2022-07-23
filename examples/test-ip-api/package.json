@@ -1,0 +1,20 @@
+{
+  "name": "test-ip-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ejs",
+    "start": "nodemon index.ejs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
