@@ -25,7 +25,7 @@
         <h3 class="text-center"> Form </h3>
       </div>
       
-      <form action="">
+      <form onsubmit="form02()" >
         
         <div class="form-group my5">
           <i class="bi bi-person-fill" style="font-size: 1.4rem; color: #757575;"></i>
@@ -35,12 +35,18 @@
 
         <div class="form-group my5">
           <i class="bi bi-person-fill" style="font-size: 1.4rem; color: #757575;"></i>
-          <label for=""> LastName : </label>
-          <input id="inputName" name="inputName" type="text" placeholder="LastName" class="form-control" >
+          <label for="inputLastName"> LastName : </label>
+          <input id="inputLastName" name="inputLastName" type="text" placeholder="LastName" class="form-control" >
         </div>
 
         <div class="form-group my5">
-          <button class="btn btn-primary">Action</button>
+          <i class="bi bi-envelope" style="font-size: 1.4rem; color: #757575;"></i>
+          <label for=""> Email : </label>
+          <input id="inputEmail" name="inputEmail" type="email" placeholder="LastName" class="form-control" >
+        </div>
+
+        <div class="form-group my5">
+          <button type="submit" class="btn btn-primary"> Action</button>
         </div>
         
       </form>
@@ -48,5 +54,6 @@
 
 
     <script type="module" src="/main.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
