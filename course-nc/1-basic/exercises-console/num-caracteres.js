@@ -1,6 +1,5 @@
 
 
-
 const contadorCarecteres = ( dato ) => {
 
     return cc = dato.length
