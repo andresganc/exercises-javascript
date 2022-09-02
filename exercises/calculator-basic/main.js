@@ -1,23 +1,48 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
+import "./css/calculator.css";
+import javascriptLogo from "./javascript.svg";
+import {
+  setupCounter
+} from "./counter.js";
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
+document.querySelector("#app").innerHTML = `
+<div class='calculator'>
+
+<div class='display'>
+  <div class='display__top'>
+    <h3> 0 </h3>
   </div>
-`
 
-setupCounter(document.querySelector('#counter'))
+  <div class='display__bottom'>
+    <h1> 0 </h1>
+  </div>
+</div >
+
+<div class='buttons'>
+
+  <div class='buttons__btn'>AC</div>
+  <div class='buttons__btn'>+/-</div>
+  <div class='buttons__btn'>%</div>
+  <div class='buttons__btn-operator'>/</div>
+  <div class='buttons__btn'>7</div>
+  <div class='buttons__btn'>8</div>
+  <div class='buttons__btn'>9</div>
+  <div class='buttons__btn-operator'>X</div>
+  <div class='buttons__btn'>4</div>
+  <div class='buttons__btn'>5</div>
+  <div class='buttons__btn'>6</div>
+  <div class='buttons__btn-operator'>-</div>
+  <div class='buttons__btn'>1</div>
+  <div class='buttons__btn'>2</div>
+  <div class='buttons__btn'>3</div>
+  <div class='buttons__btn-operator'>+</div>
+  <div class='buttons__btn'>0</div>
+  <div class='buttons__btn'>0</div>
+  <div class='buttons__btn'>,</div>
+  <div class='buttons__btn-operator'>=</div>
+
+</div>
+  
+</div>
+`;
+
+setupCounter(document.querySelector("#counter"));

@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+.calculator {
+    display: inline-block;
+    background-color: #424242;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.display {
+    background-color: #212121;
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: 5px;
+}
+
+.buttons__btn {
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 50%;
+    background-color: #616161;
+    cursor: pointer;
+}
+
+.buttons__btn-operator {
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 50%;
+    background-color: #FF6F00;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buttons__btn-operator:hover {
+    background-color: #FF8F00;
+    /* box-shadow: 1px 1px 0px 1px rgba(255, 255, 255, 0.3); */
+}
