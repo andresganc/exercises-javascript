@@ -1,9 +1,12 @@
 
-let numberCurrent
+let numberCurrent = '0'
+let numberBefore = '0'
+
 
 // GETS
 // Display
-const ContainertBottomValue = document.getElementById('display__bottom')
+const ContainertDisplayCurrent = document.getElementById('display__current')
+const ContainertDisplayBefore = document.getElementById('display__before')
 // Buttons
 const btn1 = document.getElementById('btn-1')
 const btn2 = document.getElementById('btn-2')
@@ -25,7 +28,7 @@ btn2.addEventListener("click", (e) => {
 function display() {
     const displayBottom = document.createElement('h1')
     displayBottom.innerHTML = numberCurrent
-    ContainertBottomValue.appendChild(displayBottom)
+    ContainertDisplayCurrent.appendChild(displayBottom)
 }
 
 

@@ -19,7 +19,7 @@ h3 {
 }
 
 .calculator {
-    display: inline-block;
+    width: 400px;
     background-color: #424242;
     padding: 1rem;
     border-radius: 1rem;
@@ -32,6 +32,16 @@ h3 {
     text-align: right;
 }
 
+.display__current {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.display__before {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -40,8 +50,8 @@ h3 {
 
 .buttons__btn {
     text-align: center;
-    margin: .5rem;
-    padding: .5rem;
+    margin: .8rem;
+    padding: .8rem;
     border-radius: 50%;
     background-color: #616161;
     cursor: pointer;
