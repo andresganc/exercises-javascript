@@ -1,0 +1,149 @@
+/* @import"reset.css"; */
+@charset "utf-8";
+@font-face
+{
+	font-family:'fuente';
+	src:url('KaushanScript-Regular.otf');
+}
+
+
+
+
+body	/* Selectores de ETIQUETA */
+{
+	/*background-color:#BDB76B;*/ 
+	
+	background: url(../images/bg_f2.jpg); /* Imagen de fondo */
+
+}
+
+
+
+.h1-1
+{
+	
+	margin: 15px auto; 						/* Margen Arriba y Abajo de 15px e Izquierda y derecha Automatico*/
+	border: 2px solid #ffffff;
+	text-align: center;
+	padding: 3px; 
+	background-position: center;
+	border-radius: 10px;
+	width: 35%;
+	font: bold 14px verdana, sans-serif; 
+	color:#ffffff;
+	text-shadow: #36e3ee 1px 1px 0px;		/* Sombra:#color D.Horizontal D.Vertical Difuminado*/
+	background:-webkit-linear-gradient(top, #2635f5, #9ea8cc);		/* Comando:-Navegador-Efecto-Efecto(Inicia, Color, Color)*/
+	box-shadow: #a7aab8 4px 5px 5px;
+
+}
+
+.img-1
+{
+	padding: 3px;
+	background-color: #137ee2;
+	border-radius: 8px;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+
+}
+
+#img:hover
+{
+/* Navegador-Comando: Escalar (valor a escalar)*/
+-webkit-transform:scale(1.8);	/* Navegador Google Chrome */
+-moz-transform:scale(1.2);		/* Navegador Mozilla Firefox */
+-op-transform:scale(1.2);		/* Navegador Opera */
+-ms-transform:scale(1.2);		/* Navegador MS I. Explorer */
+
+}
+
+.nav-principal			/* Selector por ID */
+{
+	font: 13px verdana, sans-serif;			/* Tamaño, Fuente y Fuente alternativa*/
+	background: url(../images/bg1.png);			/*background-color:#edfbfc;  Color de fondo */
+	padding-top: 1;
+	padding-bottom: 1;
+	border-radius: 10px;
+	border: 3px solid #F00;					/* Borde 3px, Color Solido y color*/			
+	box-shadow:#999 5px 5px 5px;	 		/* Sombra:#color D.Horizontal D.Vertical Difuminado*/
+	text-shadow:#999 2px 1px 0px;
+}
+
+#nav-hover:hover
+{
+	
+}
+
+
+#aside
+{
+	font: 12px verdana, sans-serif;
+	background: url(../images/bg2.png);
+	float: left;
+	margin-top: 5;			/* Margen externo*/
+	margin-left: 1;			/* Margen externo*/
+	margin-right: 0;		/* Margen externo*/
+	margin-bottom: 5;		/* Margen externo*/
+	
+	height: 75%;
+	width: 20%;
+
+	padding-left: 10px; 		/* Margen interno*/
+	
+}
+
+#section
+{
+	font: 12px verdana, sans-serif;
+	background: url(../images/bg2.png);
+	float: right;			/* Margen externo*/
+	margin-top: 5;			/* Margen externo*/
+	margin-left: 0;			/* Margen externo*/
+	margin-right: 1;		/* Margen externo*/
+	margin-bottom: 5;		/* Margen externo*/
+	height: 75%;
+	width: 78%;
+	padding-left: 10px;		/* Margen interno*/	
+
+}
+
+#footer
+{
+	background: url(../images/bg1.png);
+	clear: both;			/*Quita el float o flotante de los otros elementos y los reconoce como normal*/
+	padding-left: 5; 
+}
+
+.li
+{
+	display:inline;  		/*Quita la vista tipo bloc y lo pone tipo inline*/
+}
+
+
+
+#a-hover:hover
+{
+	color: #f5781d;
+
+}
+
+/* footer */
+
+footer, p
+{
+	font: 14px 'fuente';
+}
+
+small
+{
+	font: 14px 'fuente';
+}
+
+address
+{
+	font: 14px 'fuente';
+}
+
+p
+{
+	font: 14px 'fuente';
+}
