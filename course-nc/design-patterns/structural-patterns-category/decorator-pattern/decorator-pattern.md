@@ -1,4 +1,0 @@
-
-# DECORATOR PATTERN
-
-## 

@@ -1,3 +1,0 @@
-
-console.log ('Hola mundo')
-
