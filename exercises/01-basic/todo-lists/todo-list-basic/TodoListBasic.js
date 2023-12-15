@@ -11,9 +11,9 @@ class TodoListBasic extends HTMLElement {
     this.saludo = 'Saludo NC'
   }
 
-  serState(() {
+  setState() {
     
-  })
+  }
 
   connectedCallback() {
     this.render()
