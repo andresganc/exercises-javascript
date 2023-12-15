@@ -9,14 +9,29 @@ class TodoListAdvanced extends HTMLElement {
         this.state = {}
     }
 
-    setState() {
-    
-    }
-  
     connectedCallback() {
       this.render()
       this.innerHTML = this.saludo
       this.innerHTML = this.changeInput
+    }
+
+    static get observedAttributes() {
+        return ['name', 'surname']
+    }
+
+    attributeChangedCallback() {
+        switch(nameAtr) {
+            case "name":
+                this.name = newValue;
+            break;
+            case "surname":
+                this.surname = newValue;
+            break;
+        }
+    }
+
+    setState() {
+    
     }
   
     changeInput() {
