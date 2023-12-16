@@ -16,6 +16,8 @@ class TodoListAdvanced extends HTMLElement {
       this.addEventListener('click', () => {
         alert('New Task')
       })
+
+      this.addEventListener('click', this.changeInput)
     }
 
     static get observedAttributes() {
@@ -45,7 +47,7 @@ class TodoListAdvanced extends HTMLElement {
       this.shadowRoot.innerHTML = `
         <h2>Todo List Basic</h2>
         <input type="text" placeholder='Add to list'/>
-        <button id='buttonTask' type="button" onclick='${this.changeInput}'>+</button>
+        <button id='buttonTask' type="button">+</button>
   
         <div>
           <h4>Task List</h4>
