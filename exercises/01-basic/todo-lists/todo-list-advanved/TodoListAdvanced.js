@@ -17,7 +17,7 @@ class TodoListAdvanced extends HTMLElement {
         alert('New Task')
       })
 
-      this.addEventListener('click', this.changeInput)
+      this.addEventListener('change', this.changeInput)
     }
 
     static get observedAttributes() {
