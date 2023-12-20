@@ -18,12 +18,15 @@ class TodoListAdvanced extends HTMLElement {
 
       let buttonAddTask = this.querySelector('#buttonAddTask')
       buttonAddTask.addEventListener('click', () => {
-        buttonAddTask.valu  
+         window.alert('New Task')
       })
 
 
       let inputText = this.querySelector('#inputText')
-      inputText.addEventListener('change', this.changeInput)
+      inputText.addEventListener('change', () => {
+        this.state.counter = inputText
+        console.log(this.state.counter)
+      })
     }
 
     static get observedAttbibutes() {
@@ -47,6 +50,9 @@ class TodoListAdvanced extends HTMLElement {
   
     changeInput() {
       // this.state.counter = 
+      // const displayCurrent = document.createElement('h1')
+      // displayCurrent.innerHTML = numberCurrent
+      // containertDisplayCurrent.appendChild(displayCurrent)
     }
   
     render() {
