@@ -6,21 +6,27 @@ class TodoListAdvanced extends HTMLElement {
         this.attachShadow({mode: 'open'})
         const props = [...this.attributes].map(props => {})
         console.log(props)
-        this.state = {}
+        this.state = {
+          counter: 0
+        }
     }
 
     connectedCallback() {
       this.render()
       this.innerHTML = this.saludo
       this.innerHTML = this.changeInput
-      this.addEventListener('click', () => {
-        alert('New Task')
+
+      let buttonAddTask = this.querySelector('#buttonAddTask')
+      buttonAddTask.addEventListener('click', () => {
+        buttonAddTask.valu  
       })
 
-      this.addEventListener('change', this.changeInput)
+
+      let inputText = this.querySelector('#inputText')
+      inputText.addEventListener('change', this.changeInput)
     }
 
-    static get observedAttributes() {
+    static get observedAttbibutes() {
         return ['name', 'surname']
     }
 
@@ -40,14 +46,14 @@ class TodoListAdvanced extends HTMLElement {
     }
   
     changeInput() {
-      console.log('Hola')
+      // this.state.counter = 
     }
   
     render() {
       this.shadowRoot.innerHTML = `
-        <h2>Todo List Basic</h2>
-        <input type="text" placeholder='Add to list'/>
-        <button id='buttonTask' type="button">+</button>
+        <h2>Todo List Advanced</h2>
+        <input id='inputText' type="text" placeholder='Add to list'/>
+        <button id='buttonAddTask' type="button">+</button>
   
         <div>
           <h4>Task List</h4>
